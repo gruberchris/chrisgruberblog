@@ -3,7 +3,7 @@ module.exports = {
     title: `Rebooted: My Journey In A Technological World`,
     author: `Chris Gruber`,
     description: `Welcome to my blog about my career as a software developer and the many interesting things I work on.`,
-    siteUrl: `https://gifted-lumiere-74a989.netlify.com`,
+    siteUrl: `https://www.chrisgruber.com`,
     social: {
       twitter: `gruberchris`
     }
