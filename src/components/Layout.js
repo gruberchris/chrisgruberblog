@@ -20,8 +20,7 @@ class Layout extends React.Component {
             style={{
               ...scale(1.5),
               marginBottom: rhythm(1.5),
-              marginTop: 0,
-              marginLeft: `30px`
+              marginTop: 0
             }}
           >
             <Link
@@ -63,18 +62,32 @@ class Layout extends React.Component {
         style={{
           marginLeft: `auto`,
           marginRight: `auto`,
-          maxWidth: rhythm(24),
+          maxWidth: rhythm(30),
           padding: `${rhythm(1.5)} ${rhythm(3 / 4)}`
         }}
       >
         <header>{header}</header>
         <main>{children}</main>
-        <footer>
-          © {new Date().getFullYear()}, Built with
-          {` `}
-          <a href="https://www.gatsbyjs.org">Gatsby</a>
-          {` and `}
-          <a href="https://reactjs.org/">React</a>
+        <footer
+          style={{
+            fontSize: `small`,
+            textAlign: `center`
+          }}
+        >
+          © Copyright {new Date().getFullYear()},{" "}
+          <a href="https://twitter.com/gruberchris">Chris Gruber</a>.
+          <p
+            style={{
+              marginTop: rhythm(0.25)
+            }}
+          >
+            Built using
+            {` `}
+            <a href="https://www.gatsbyjs.org">Gatsby</a>,{` `}
+            <a href="https://reactjs.org">React</a>.
+            {" CDN and other hosting services provided by "}
+            <a href="https://www.netlify.com">Netlify</a>.
+          </p>
         </footer>
       </div>
     );

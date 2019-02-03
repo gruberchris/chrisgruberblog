@@ -1,7 +1,7 @@
 {
   "name": "chrisgruberblog",
   "private": true,
-  "description": "Rebooted: My Journey In A Technological World. This is Chris Gruber's personal blog website.",
+  "description": "Rebooted: My Journey With Software & Technology. This is Chris Gruber's personal blog website.",
   "version": "0.1.0",
   "author": "Chris Gruber <chris@chrisgruber.com>",
   "bugs": {

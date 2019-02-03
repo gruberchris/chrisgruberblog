@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `Rebooted: My Journey In A Technological World`,
+    title: `Rebooted: My Journey With Software & Technology`,
     author: `Chris Gruber`,
     description: `Welcome to my blog about my career as a software developer and the many interesting things I work on.`,
     siteUrl: `https://www.chrisgruber.com`,
@@ -57,7 +57,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Rebooted: My Journey In A Technological World`,
+        name: `Rebooted: My Journey With Software & Technology`,
         short_name: `Rebooted`,
         start_url: `/`,
         background_color: `#ffffff`,
