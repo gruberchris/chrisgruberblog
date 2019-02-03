@@ -11,11 +11,7 @@ class Layout extends React.Component {
 
     if (location.pathname === rootPath) {
       header = (
-        <div
-          style={{
-            backgroundColor: `#493820`
-          }}
-        >
+        <div>
           <h1
             style={{
               ...scale(1.5),
