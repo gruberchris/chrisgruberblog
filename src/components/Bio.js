@@ -35,9 +35,21 @@ function Bio() {
               }}
             >
               Written by <strong>{author}</strong>, a software developer and
-              solutions architect living in Minnesota.{" "}
-              <a href={`https://twitter.com/${social.twitter}`}>
-                Follow me on Twitter.
+              solutions architect living in Minnesota. Follow me on{" "}
+              <a
+                href={`https://twitter.com/${social.twitter}`}
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                Twitter
+              </a>{" "}
+              and come see my software projects on{" "}
+              <a
+                href={`https://github.com/gruberchris`}
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                GitHub.
               </a>
             </p>
           </div>
