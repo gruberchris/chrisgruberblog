@@ -75,7 +75,14 @@ class Layout extends React.Component {
           }}
         >
           © Copyright {new Date().getFullYear()},{" "}
-          <a href="https://twitter.com/gruberchris">Chris Gruber</a>.
+          <a
+            href="https://twitter.com/gruberchris"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            Chris Gruber
+          </a>
+          .
           <p
             style={{
               marginTop: rhythm(0.25)
@@ -83,10 +90,30 @@ class Layout extends React.Component {
           >
             Built using
             {` `}
-            <a href="https://www.gatsbyjs.org">Gatsby</a>,{` `}
-            <a href="https://reactjs.org">React</a>.
-            {" CDN and other hosting services provided by "}
-            <a href="https://www.netlify.com">Netlify</a>.
+            <a
+              href="https://www.gatsbyjs.org"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              Gatsby
+            </a>
+            ,{` `}
+            <a
+              href="https://reactjs.org"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              React
+            </a>
+            .{" CDN and other hosting services provided by "}
+            <a
+              href="https://www.netlify.com"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              Netlify
+            </a>
+            .
           </p>
         </footer>
       </div>
