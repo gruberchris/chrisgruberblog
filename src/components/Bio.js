@@ -13,8 +13,7 @@ function Bio() {
         return (
           <div
             style={{
-              display: `flex`,
-              marginBottom: rhythm(2.5)
+              display: `flex`
             }}
           >
             <Image
@@ -30,12 +29,15 @@ function Bio() {
                 borderRadius: `50%`
               }}
             />
-            <p>
-              Written by <strong>{author}</strong>. I live and work in
-              Minnesota.
-              {` `}
+            <p
+              style={{
+                marginBottom: 0
+              }}
+            >
+              Written by <strong>{author}</strong>, a software developer and
+              solutions architect living in Minnesota.{" "}
               <a href={`https://twitter.com/${social.twitter}`}>
-                Look me up on Twitter and follow me.
+                Follow me on Twitter.
               </a>
             </p>
           </div>
