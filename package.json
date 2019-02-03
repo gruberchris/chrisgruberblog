@@ -41,7 +41,11 @@
     "blog",
     "react",
     "cms",
-    "netlify"
+    "netlify",
+    "personal-blog",
+    "jamstack",
+    "javascript",
+    "security"
   ],
   "license": "MIT",
   "main": "n/a",
