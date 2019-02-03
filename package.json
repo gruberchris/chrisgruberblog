@@ -1,9 +1,9 @@
 {
-  "name": "gatsby-starter-blog",
+  "name": "chrisgruberblog",
   "private": true,
-  "description": "A starter for a blog powered by Gatsby and Markdown",
+  "description": "Rebooted: My Journey In A Technological World. This is Chris Gruber's personal blog website.",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Chris Gruber <chris@chrisgruber.com>",
   "bugs": {
     "url": "https://github.com/gatsbyjs/gatsby/issues"
   },
@@ -35,15 +35,19 @@
     "typography": "^0.16.18",
     "typography-theme-wordpress-2016": "^0.16.18"
   },
-  "homepage": "https://github.com/gatsbyjs/gatsby-starter-blog#readme",
+  "homepage": "https://github.com/gruberchris/chrisgruberblog#readme",
   "keywords": [
-    "gatsby"
+    "gatsby",
+    "blog",
+    "react",
+    "cms",
+    "netlify"
   ],
   "license": "MIT",
   "main": "n/a",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gatsbyjs/gatsby-starter-blog.git"
+    "url": "git@github.com:gruberchris/chrisgruberblog.git"
   },
   "scripts": {
     "build": "gatsby build",
