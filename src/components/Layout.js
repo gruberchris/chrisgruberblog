@@ -81,7 +81,7 @@ class Layout extends React.Component {
           .
           <p
             style={{
-              marginTop: rhythm(0.25)
+              marginTop: rhythm(0.1)
             }}
           >
             Built using
