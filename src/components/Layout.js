@@ -67,7 +67,8 @@ class Layout extends React.Component {
         <footer
           style={{
             fontSize: `small`,
-            textAlign: `center`
+            textAlign: `center`,
+            marginTop: rhythm(4.0)
           }}
         >
           © Copyright {new Date().getFullYear()},{" "}
@@ -81,11 +82,11 @@ class Layout extends React.Component {
           .
           <p
             style={{
-              marginTop: rhythm(0.1)
+              marginTop: rhythm(0.1),
+              fontSize: `smaller`
             }}
           >
-            Built using
-            {` `}
+            Built using{` `}
             <a
               href="https://www.gatsbyjs.org"
               rel="noopener noreferrer"
@@ -101,7 +102,7 @@ class Layout extends React.Component {
             >
               React
             </a>
-            .{" CDN and other hosting services provided by "}
+            .{` CDN and other services provided by `}
             <a
               href="https://www.netlify.com"
               rel="noopener noreferrer"
